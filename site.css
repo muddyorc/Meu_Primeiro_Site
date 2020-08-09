@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#imagemfundo{
+background-image: url(https://static.vecteezy.com/system/resources/previews/000/119/666/original/free-graduate-education-vector-illustration.jpg);
+height: 100%;
+text-align: center;
+background-size: cover;
+}
+
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+    
+}
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px  black;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+
+#video {
+    padding-top: 4%;
+}
+
+#escolhas {
+    padding-top: 5%;
+}
+
+#textos {
+    font-size: 20px;
+}
+
+#imagem {
+    position: relative;
+    width: auto;
+    margin: none;
+    float: left;
+    
+}
+
+footer {
+    background-color: #ff0000;
+    float: left;
+    width: 100%;
+    height: 20%;
+    color: white;
+}
+
+#menu {
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+
+li:hover {
+    background-color: #ff0000;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+    background-color: red;
+}
+
+
+.quatro {
+    width: 15%;
+}
+
+section {
+    padding: 20px;
+    float: left;
+}
+
+.icone {
+    width: 100%;
+}
+
+
+
+@media all and (max-width:768px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna, .dois, .quatro {
+        display: block;
+        width: 80%;
+        padding:0;
+        margin: 10px auto;
+        float: none;
+    }
+    footer {
+        height: 100%;
+    }
+    #video2 {
+        margin:2%;
+    } 
+}
